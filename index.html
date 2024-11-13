@@ -34,7 +34,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1857259852";
+    const serviceWorkerVersion = "3861011959";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -55,7 +55,9 @@
       });
     });
   </script>
- 
+  <script type="module">
+    importScripts('assets/sqflite_sw.js');
+  </script>
 
 </body>
 </html>
